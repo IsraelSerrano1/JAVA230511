@@ -11,20 +11,20 @@ public class MainDado {
         int numero;
         Dado dado = new Dado();
         numero = dado.lanzar();
-        extracted(numero);
+        dibujar(numero);
         do {
             System.out.println("¿quieres lanzar de nuevo? (s/n)");
             tirar = sc.next();
             if (tirar.equals("s")) {
                 numero = dado.lanzar();
-                extracted(numero);
+                dibujar(numero);
             }
         }while (!tirar.equals("n")) ;
 
         sc.close();
     }
 
-    private static void extracted(int numero) {
+    private static void dibujar(int numero) {
         switch (numero) {
             case 1:
                 System.out.println(" ------- ");
