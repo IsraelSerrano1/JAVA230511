@@ -7,12 +7,13 @@ import com.softtek.modelo.Campos;
 public class Main {
     public static void main(String[] args) {
 
-            Campos num = new Campos(5);
+        Campos num = new Campos(5);
 
-            System.out.println(num.muestra());
-            num.incrementa();
-            num.incrementa();
-            System.out.println(num.muestra());
+        num.muestra();
+        num.incrementa();
+        num.incrementa();
+        num.muestra();
+
 
 
     }

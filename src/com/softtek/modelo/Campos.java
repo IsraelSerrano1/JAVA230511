@@ -1,5 +1,7 @@
 package com.softtek.modelo;
 
+import static javafx.scene.input.KeyCode.X;
+
 public class Campos {
     private int x;
 
@@ -7,8 +9,8 @@ public class Campos {
         this.x = x;
     }
 
-    public int muestra(){
-        return x;
+    public void muestra(){
+        System.out.println(this.x);
     }
 
     public int incrementa(){
