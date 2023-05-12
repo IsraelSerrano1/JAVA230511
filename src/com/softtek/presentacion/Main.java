@@ -9,10 +9,10 @@ public class Main {
 
         Campos num = new Campos(5);
 
-        num.muestra();
+        System.out.println("El número a mostrar es: " + num.muestra());
         num.incrementa();
         num.incrementa();
-        num.muestra();
+        System.out.println("El número a mostrar es: " + num.muestra());
 
 
 

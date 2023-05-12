@@ -7,8 +7,8 @@ public class Campos {
         this.x = x;
     }
 
-    public void muestra(){
-        System.out.println(this.x);
+    public int muestra(){
+        return x;
     }
 
     public void incrementa(){
